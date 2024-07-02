@@ -16,6 +16,11 @@
 }
 
 .footer__social-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
   padding-bottom: 20px;
   margin: auto 0;
   color: white;
@@ -50,6 +55,6 @@
 
 .footer__copyright {
   display: flex;
-  margin-top: 100px;
+  margin: 108px 0 0;
   color: #ffff;
 }

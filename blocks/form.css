@@ -25,12 +25,13 @@
 }
 
 .form__input {
+  border: 1px solid #838383;
   display: block;
   width: 100%;
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
-  padding: 0;
+  padding: 10px;
 }
 
 .form__button {
@@ -48,10 +49,16 @@
   opacity: 0.7;
 }
 
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 32px;
+  margin-bottom: 0;
   gap: 12px;
 }

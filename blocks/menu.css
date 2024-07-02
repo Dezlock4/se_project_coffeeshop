@@ -4,6 +4,7 @@
   background-image: url("../images/background_menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .menu__container {
@@ -20,7 +21,7 @@
   line-height: 52px;
   font-style: normal;
   font-weight: 500;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .menu__subtitle {
@@ -38,6 +39,6 @@
   flex-wrap: wrap;
   gap: 100px;
   padding: 0;
-  margin-top: 0;
+  margin: 0 0 35px;
   list-style-type: none;
 }

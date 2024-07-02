@@ -5,12 +5,11 @@
   background-position: center;
   background-size: cover;
   background-color: #0a2750;
-  margin-bottom: 215px;
 }
 
 .recipes__videos {
   display: flex;
-  gap: 100px;
+  gap: 40px;
   justify-content: center;
   flex-direction: row;
   margin: 0;
@@ -18,10 +17,14 @@
 }
 
 .recipes__video-caption {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
-  padding: 24px 0;
+  padding-bottom: 0;
+  margin: 24px 0 0;
 }
 
 .recipes__title {
@@ -29,7 +32,7 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 580px;
-  margin-bottom: 24px;
+  margin: 24px 0 0;
   color: #ffffff;
 }
 
