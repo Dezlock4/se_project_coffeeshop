@@ -14,8 +14,7 @@
   font-size: 44px;
   line-height: 52px;
   font-style: normal;
-  margin-bottom: 20px;
-  margin-right: 100px;
+  margin: 0 100px 0;
   color: white;
   z-index: 1;
   display: flex;
@@ -25,7 +24,6 @@
   max-width: 660px;
   font-family: "Noto Serif", "Times New Romans", serif;
   color: white;
-  margin: 19px;
 }
 
 .about__paragraph {
